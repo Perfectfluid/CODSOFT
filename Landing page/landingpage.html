@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="bg-image">
+
+        <header>
+            <h1>Welcome to Gaming Hub</h1>
+            <nav>
+                <ul>
+                    <li><a href="#action">Action</a></li>
+                    <li><a href="#adventure">Adventure</a></li>
+                    <li><a href="#Fighting">Fighting</a></li>
+                    <li><a href="#strategy">Strategy</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="action">
+                <h2 class="head1">Action Games</h2>
+                <div class="game-card" onclick="showDetails('action')">
+                    <img src="https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/rdr2-chromebook-wallpaper.jpg" class="img1" />
+                    <h3>Red Dead Redemption 2</h3>
+                    <p>Red Dead Redemption is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption.</p>
+                </div>
+                <div class="game-card" onclick="showDetails('action')">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Assassin%27s_Creed_Logo.svg/1200px-Assassin%27s_Creed_Logo.svg.png" class="img1" />
+                    <h3>Assassin's Creed</h3>
+                    <p>Assassin's Creed is a historical action-adventure video game series and media franchise published by Ubisoft and developed mainly by its studio Ubisoft Montreal using the game engine Anvil and its more advanced derivatives.</p>
+                </div>
+            </section>
+
+            <section id="adventure">
+                <h2 class="head2">Adventure Games</h2>
+                <div class="game-card" onclick="showDetails('adventure')">
+                    <img src="https://www.playstationlifestyle.net/wp-content/uploads/sites/9/2013/11/unchartedps4logo.jpg?w=555" class="img1" />
+                    <h3>Uncharted 4</h3>
+                    <p> A Thief's End is a 2016 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. It is the fourth main entry in the Uncharted series.</p>
+                </div>
+                <div class="game-card" onclick="showDetails('adventure')">
+                    <img src="https://m.media-amazon.com/images/I/61vfIZieiJL.jpg" class="img1" />
+                    <h3>Uncharted Lost Legacy</h3>
+                    <p>The Lost Legacy is a 2017 action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment, serving as a standalone expansion to Uncharted 4: A Thief's End.</p>
+                </div>
+            </section>
+
+            <section id="Fighting">
+                <h2 class="head3">Fighting Games</h2>
+                <div class="game-card" onclick="showDetails('puzzle')">
+                    <img src="https://images.ctfassets.net/nwksj2ft7iku/6uQKMTFUTu22CILL1zSBOB/f51444d45c29398101950f06ffc19292/hero_1562700397.png" class="img1" />
+                    <h3>Mortal Kombat</h3>
+                    <p>Mortal Kombat is an American media franchise centered on a series of fighting video games originally developed by Midway Games in 1992. The original Mortal Kombat arcade game spawned a franchise consisting of action-adventure games.</p>
+                </div>
+                <div class="game-card" onclick="showDetails('puzzle')">
+                    <img src="https://i.ytimg.com/vi/uXiSlYB20Ns/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDY3gm9dLHrq7u7qQ9GcoX5XQrIAQ" class="img1" />
+                    <h3> Tekken</h3>
+                    <p>Tekken (Japanese: 鉄拳てっけん, meaning "Iron Fist") is a Japanese media franchise centered on a series of fighting games developed and published by Bandai Namco Entertainment (formerly Namco). The franchise also includes film and print adaptations.</p>
+                </div>
+            </section>
+
+            <section id="strategy">
+                <h2 class="head4">Strategy Games</h2>
+                <div class="game-card" onclick="showDetails('strategy')">
+                    <img src="https://supercell.com/images/4c0ab0c1fb2958e72103f81632fee096/og_clashofclans.f3149338.jpg" class="img1" />
+                    <h3> Clash Of Clans</h3>
+                    <p>Clash of Clans is a 2012 free-to-play mobile strategy video game developed and published by Supercell. The game was released for iOS platforms on 2 August 2012, and on Google Play for Android on 7 October 2013.</p>
+                </div>
+                <div class="game-card" onclick="showDetails('strategy')">
+                    <img src="https://cdn.prgloo.com/media/2b6572fb52034c2f831bdad3bfe8bf8f.png?width=1200&height=1800" class="img1" />
+                    <h3>Cvilization </h3>
+                    <p>Sid Meier's Civilization VI is a 2016 4X turn-based strategy video game developed by Firaxis Games and published by 2K. The mobile and Nintendo Switch port was published by Aspyr Media.</p>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <div class="container">
+        <div class="heading">Rate Us</div>
+        <div class="stars">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+        </div>
+        <textarea class="textarea" placeholder="Leave a comment..."></textarea>
+        <button class="button">Submit</button>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2025 Gaming Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
